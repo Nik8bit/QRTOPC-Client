@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QrScanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Zedna QR to PC</string>
+    <string name="nav_header_subtitle">Sends the Qr Over network</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Settings</string>
+    <string name="mainmenu_constat_con">Status: Connected</string>
+    <string name="mainmenu_constat_discon">Status: Disconnected</string>
+    <string name="aboutapp">Zedna Barcode to PC... Nikhil was here🧡.</string>
+</resources>
