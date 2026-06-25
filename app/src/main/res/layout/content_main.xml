@@ -45,17 +45,24 @@
         android:layout_height="wrap_content"
         android:text="Status: Disconnected"
         android:textColor="#FF0000" />
-    <Button
-        android:id="@+id/sendButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Send Data" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/Torchswitch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Flash" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/Scansendswitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan and Send" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/Loopswitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loop" />
 
     <TextView
         android:id="@+id/textView2"
