@@ -9,7 +9,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -112,11 +111,7 @@ public class MainActivity extends AppCompatActivity {
     private final Handler scanHandler = new Handler(Looper.getMainLooper());
     private Runnable scanRunnable;
     private void ScanFabButton(){
-        if (Loop_Switch.isChecked()) {
-            isLoopRunning = true; // Turn the loop flag ON
-        }else {
-            isLoopRunning = false;
-        }
+        isLoopRunning = Loop_Switch.isChecked(); // Turn the loop flag ON
         startBarcodeScan();   // Fire the first scan
     }
 
